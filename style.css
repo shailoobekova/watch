@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  a{
+    text-decoration: none;
+    
+  }
+   .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+   .header-text a{
+    color: black;
+   }
+   .header-text h1{
+    width: 800px;
+    height: 215px;;
+    font-size: 150px;
+   }
+   .header-text p{
+    width: 575px;
+    height: 142px;
+    font-size: 32px;
+   }
+   .header-icons{
+    display: flex;
+    align-items: center;
+   }
+  .buy {
+    background: black;
+    width: 170px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .buy a {
+    color: white;
+    font-size: 15px;
+  }
+  
+  .price {
+    width: 70px;
+    height: 37px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .price h5 {
+    font-weight: 200;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .info {
+    padding: 40px 0;
+  }
+  
+  .info_top a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 200;
+    color: black;
+  }
+  
+  .info_top h3 {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  
+  .background_box {
+    margin: 30px 0;
+    background: rgba(220, 220, 220, 0.555);
+    padding: 60px 30px;
+  }
+  
+  .background_box_three {
+    /* width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: cornsilk
+    padding: 30px 30px; */
+  }
+  .imgClass{
+    width: 200px;
+    height: 300px;
+ width: 100%;
+ justify-content:center
+ 
+  }
+  
+  .background_box img {
+    height: 50;
+    width: 160px;
+  }
+  
+  .background_box_three .watch_3 {
+    width: 270px;
+    padding: 60px 30px;
+  }
+  .info_text h6 {
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  .info_text p {
+    width: 260;
+    font-weight: 200;
+    line-height: 25px;
+  }
+  .info_text_end {
+    padding: 80px 0 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .info_text_end h6 {
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  .info_text_end p {
+    width: 230px;
+    font-weight: 200;
+    line-height: 25px;
+  }
+  .info_text_end p a {
+    font-weight: 300;
+    text-decoration: none;
+    color: rgba(255, 166, 0, 0.895);
+  }
+  
+  .hr {
+    width: 95px;
+    margin-bottom: 20px;
+  }
+  
